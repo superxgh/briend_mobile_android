@@ -13,31 +13,9 @@ class AppPages {
       binding: SplashBinding(),
     ),
     GetPage(
-      name: Routes.LOGIN,
+      name: Routes.BRIEND,
       page: () => LoginScreen(),
       binding: LoginBinding(),
     ),
-    GetPage(
-      name: Routes.HOME,
-      page: () => HomeScreen(),
-      binding: HomeBinding(),
-    ),
-    GetPage(
-      name: Routes.ORDER,
-      page: () => OrderScreen(),
-      binding: OrderBinding(),
-    ),
-    // GetPage(
-    //   name: Routes.AUTH,
-    //   page: () => AuthScreen(),
-    //   binding: AuthBinding(),
-    //   children: [
-    //     GetPage(name: Routes.REGISTER, page: () => RegisterScreen()),
-    //     GetPage(name: Routes.LOGIN, page: () => LoginScreen()),
-    //   ],
-    // ),
-    // GetPage(name: Routes.HOME, page: () => HomeScreen(), binding: HomeBinding(), children: [
-    //   GetPage(name: Routes.CARDS, page: () => CardsScreen()),
-    // ]),
   ];
 }

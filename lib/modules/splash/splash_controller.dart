@@ -16,7 +16,7 @@ class SplashController extends GetxController {
     //     Get.toNamed(Routes.AUTH);
     //   }
     // } catch (e) {
-    Get.toNamed(Routes.LOGIN);
+    // Get.toNamed(Routes.LOGIN);
     // }
   }
 }
